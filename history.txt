@@ -1,0 +1,1000 @@
+   40  cd ..
+   41  ls
+   42  rm dir
+   43  rm train
+   44  ls
+   45  rm -rf train
+   46  mkdir touch ps
+   47  ls
+   48  rm ps
+   49  ls
+   50  cd touch
+   51  ls
+   52  cd /home
+   53  find --include="*.go" -exec /|xargs ls -l
+   54  find --include="'.go' -exec /|xargs ls -l
+   55  ;
+   56  find --include=".go" -exec |xargs ls -l
+   57  cd /city/share
+   58  ls
+   59  cd touch/
+   60  ls
+   61  cd ..
+   62  rm -rf touch
+   63  ls
+   64  mkdir train
+   65  ls
+   66  cd train
+   67  ls
+   68  touch ps | head -10
+   69  ls
+   70  cat ps
+   71  ps -aux |head -10
+   72  ps -aux |head -10 > ps
+   73  ls
+   74  cat ps
+   75  cd ..
+   76  ls
+   77  rm -rf train
+   78  ls
+   79  find /home --include="*.go" 
+   80  find /home -name -type "*.go" |xargs ls -l 
+   81  find /home -name -type "*.go" -exec|xargs ls -l 
+   82  find /home -name  "*.go" -exec|xargs ls -l 
+   83  find  --include="*.go"  -exec/|xargs    ls  -l
+   84  cd /home
+   85  ls
+   86  cd casa/
+   87  ls
+   88  cd ..
+   89  find /home -name *.go
+   90  find /home -name *.sql
+   91  find /home -name -type "*.sql"
+   92  find /home -name -type "*.sql" exec
+   93  find /home -name -type "*.sql" -exec
+   94  find /home -name -type '*.sql' -exec
+   95  find /home -name  '*.sql' -exec
+   96  find /home -name hemsdb_tx_20200606.sql
+   97  find /home -name "*.sql" -exec {} \;
+   98  find /home -name "*.sql"  {} \;
+   99  find /home -name "*.sql"  -exec {} \;
+  100  find /home -name "*.sql"  -exec {} | xargs ls -l
+  101  find /home -name "*.sql"  -exec {} | xargs ls -ll
+  102  cd /home
+  103  ls
+  104  ls -l
+  105   find /home -name "*.sql"  -exec {} | xargs ls -ll
+  106   find /home -name "*.sql"  -exec {} 
+  107   find /home -name "*.sql"  -exec {} |xargs ls -l \;
+  108   find /home -name "*.sql"  -exec {} |xargs ls -l 
+  109   find /home -name "*.sql"  -exec {} |xargs ls -l ;
+  110   find /home -name "*.sql"  -exec {} |xargs ls -l \;
+  111   find /home -name "*.sql"   |xargs ls -l 
+  112   find /home -name "*.sql"  
+  113   find /home -name "*.sql"  |xargs ls -l
+  114  find /home "*" -print|xargs grep -n "casa"
+  115  find /home "*" -print|xargs grep -n "hello"
+  116  cd ..
+  117  ls
+  118  cd city/
+  119  ls
+  120  cd share/
+  121  ls
+  122  mkdir test
+  123  ls
+  124  cd test
+  125  ls
+  126  vim qqq.txt
+  127  vim adsa.txt
+  128  vim ss.txt
+  129  cd ..
+  130  ls
+  131  cd ..
+  132  find /city/share/test "*" -print|xargs grep -n "casa"
+  133  find /city/share/test  -name "*" -print|xargs grep -n "casa"
+  134  find /city/share/test  -name "*" -print|xargs grep -nr "casa"
+  135  find /city/share/test   -print|xargs grep -nr "casa"
+  136  xargs grep -nr "casa"
+  137   grep -nr "casa"
+  138  find /city/share/test   |xargs grep -nr "casa"
+  139  find /city/share/test   |xargs grep -n "casa"
+  140  ls
+  141  cd share/
+  142  ls
+  143  cd tes
+  144  cd test/
+  145  ls
+  146  mkdir ssssqq
+  147  vim sad.txt
+  148  cd ..
+  149  ls
+  150  find /city/share/test   |xargs grep -n "casa"
+  151  find /city/share/test/   |xargs grep -n "casa"
+  152  grep -nr casa /city/share/test
+  153  top -c |head -5
+  154  top -c |head -1
+  155  top -c |head-10
+  156  qqqq:qq
+  157  asd
+  158  asdasdad
+  159  top
+  160  top -c | head -10
+  161  :qw
+  162  e
+  163  qwasdqq
+  164  asd
+  165  sad
+  166  top
+  167  top -c |head 12
+  168  top -c |head -12
+  169  top
+  170  top -m 
+  171  top -M
+  172  top -m
+  173  top -c
+  174  top -mem
+  175  top -o
+  176  top -M
+  177  top
+  178  ps -aux | sort -k4nr
+  179  ps -aux | sort -k4nr |head -5
+  180  cd /city/share
+  181  ls
+  182  cd pico-management-service/
+  183  gradle bootRun --debug-jvm
+  184  gradle bootRun 
+  185  gradle bootRun --debug-jvm
+  186  gradle bootRun 
+  187  cd ..
+  188  ls
+  189  cd resource-management-service/
+  190  ls
+  191  gradle bootRun
+  192  gradle bootRun --debug-jvm
+  193  cd /city/share
+  194  ls
+  195  git clone git@gitlab.casa-systems.com:aems-ng/ui-service.git
+  196  git clone git@gitlab.casa-systems.com:aems-ng/aems-ui.git
+  197  git clone git@gitlab.casa-systems.com:aems-ng/resource-management-service.git
+  198  ls
+  199  cd aems-ui/
+  200  npm run install
+  201  ls
+  202  npm install
+  203  npm run install
+  204  npm run build
+  205  npm run install
+  206  ls
+  207  vim package.json
+  208  npm install
+  209  git config --global http.sslVerify false
+  210  npm install
+  211  npm cache clean
+  212  npm cache verify
+  213  npm -v
+  214  npm install
+  215  cd ..
+  216  ls
+  217  mysql -uroot -casa pico-service >picomanagement.sql 
+  218  mysql -uroot -pcasa pico-service >picomanagement.sql 
+  219  mysql -uroot -pcasa pico-service <picomanagement.sql 
+  220  ls -l
+  221  chmod u+x 777 /city/share/aems-ui/node_modules/closure-util/.deps
+  222  cd /city/share/aems-ui/node_modules
+  223  ls
+  224  git -v
+  225  git -version
+  226  git --version
+  227  cd ..
+  228  ls
+  229  cd pico
+  230  cd pico-management-service/
+  231  ls
+  232  git push
+  233  git branch
+  234  git status
+  235  git push
+  236  git remote -v
+  237  git push origin hotfix/fix_debug20200813
+  238  wget https://github.com/git/git/archive/v2.17.0.tar.gz 
+  239  cd ..
+  240  ls
+  241  wget https://github.com/git/git/archive/v2.17.0.tar.gz 
+  242  ls
+  243  tar -zxvf v2.17.0.tar.gz;
+  244  ls
+  245  yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel gcc perl-ExtUtils-MakeMaker
+  246  git --version
+  247  yum remove git
+  248  ls
+  249  cd git-2.17.0/
+  250  make prefix=/usr/local/git all
+  251  vim /etc/profile
+  252  source /etc/profile
+  253  git --version
+  254  source /etc/profile
+  255  git version
+  256  cd /usr/local
+  257  ls
+  258  cd /city/share
+  259  ls
+  260  cd git-2.17.0/
+  261  ls
+  262  make prefix=/usr/local/git all
+  263  make prefix=/usr/local/git install
+  264  cd /usr/local
+  265  ls
+  266  git --version
+  267  cd /city/share
+  268  ls
+  269  cd pico
+  270  cd pico-management-service/
+  271  ls
+  272  git branch
+  273  cd ..
+  274  ls
+  275  cd aems-ui/
+  276  npm install
+  277  cd ..
+  278  chmod u+x 777 aems-ui
+  279  chmod 777 aems-ui
+  280  cd aems-ui
+  281  npm install
+  282  /city/share/aems-ui/node_modules/openlayers/build
+  283  cd /city/share/aems-ui/node_modules/openlayers/build
+  284  cd /city/share/aems-ui/node_modules/openlayers
+  285  ls
+  286  cd /city/share/aems-ui/node_modules/
+  287  ls
+  288  /city/share/aems-ui/node_modules/
+  289  cd /city/share/aems-ui/node_modules/
+  290  ls
+  291  npm install
+  292  cd ..
+  293  ls
+  294  ls -l
+  295  sudo
+  296  cd /city/share
+  297  ls -l
+  298  cd /aems-ui
+  299  ls
+  300  cd aems-ui/
+  301  ls
+  302  cd node_modules/
+  303  ls
+  304  cd ..
+  305  ls -l
+  306  cd ..
+  307  cd aems-ui/
+  308  chmod 777 node_modules/
+  309  ls -l
+  310  cd ..
+  311  cd aems-ui/
+  312  npm install
+  313  npm install --unsafe-perm=true --allow-root
+  314  cd ..
+  315  ls
+  316  rm picomanagement.sql 
+  317  mysql -uroot -pcasa aemsinventory < aemsinventory.sql 
+  318  ll
+  319  mysql -uroot -pcasa aemsinventory < aemsinventory.sql 
+  320  cd /city/share
+  321  ls
+  322  cd aems-ui/
+  323  ls
+  324  src
+  325  cd src
+  326  ls
+  327  cd main
+  328  ls
+  329  cd resources
+  330  ls
+  331  cd ..
+  332  ls
+  333  cd pico-management-service/
+  334  ls
+  335  git branch
+  336  git fetch
+  337  git chekcout -b hotfix/fix_debug20200813
+  338  git checkout -b hotfix/fix_debug20200813
+  339  git status
+  340  cd ..
+  341  ls -l
+  342  cd pico-management-service/
+  343  ls
+  344  ls -l
+  345  cd ..
+  346  ls
+  347  cd aems-ui
+  348  ls
+  349  npm config get registry
+  350  cd /city/share
+  351  ls
+  352  cd resource-management-service/
+  353  ls
+  354  ls -l
+  355  chmod 755 version.sh 
+  356  ls -l
+  357  git config -core.filemode false
+  358  git config core.filemode false
+  359  cd /src/main
+  360  ls
+  361  cd src/
+  362  ls
+  363  cd main/
+  364  ls
+  365  cd resources/
+  366  ls
+  367  cd config/
+  368  ls
+  369  git checkout application-mariadb.yml 
+  370  git checkout -b hotfix/fix_provision_list20200814
+  371  git branch
+  372  cd ..
+  373  cd..
+  374  ls
+  375  cd ..
+  376  cd resource-management-service/
+  377  gradle bootRun --jvm-debug
+  378  gradle bootRun --jvm-debug --info
+  379  gradle bootRun --debug-jvm 
+  380  cd /city/share
+  381  ls
+  382  cd aems
+  383  cd aems-ui/
+  384  npm run start
+  385  cd /city/share
+  386  ls
+  387  cd pico-management-service/
+  388  gradle bootRun
+  389  gradle bootRun --debug-jvm
+  390  cd /city/share
+  391  ls
+  392  cd resource-management-service/
+  393  ls
+  394  gradle bootRun
+  395  ls
+  396  cd /city/share
+  397  ls
+  398  cd aems-ui
+  399  git branch
+  400  cd ..
+  401  ls
+  402  cd event-logger/
+  403  ls
+  404  git branch
+  405  git config core.filemode false
+  406  git log
+  407  git commit -amend
+  408  git commit --amend
+  409  git log
+  410  exit;
+  411  cd /city/share
+  412  ls
+  413  cd pico-management-service/
+  414  git log
+  415  git branch
+  416  git checkout master
+  417  git status
+  418  git log
+  419  git diff
+  420  git status
+  421  git checkout -- .
+  422  git status
+  423  git log
+  424  git checkout master
+  425  git fetch
+  426  git checkout -b hotfix/fixProfileSendedToBase20200817
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd s
+  431  cd sim_2_9_8
+  432  ls
+  433  cd config/
+  434  ls
+  435  vim application-sim.yml 
+  436  cd /city/share
+  437  ls
+  438  cd pico-management-service/
+  439  gradle bootRun
+  440  cd /city/share
+  441  ls
+  442  cd sim_2_9_8
+  443  ls
+  444  cd config
+  445  ls
+  446  vim application-sim.yml 
+  447  cd ..
+  448  ls
+  449  java -jar sim-2.9.8.v.jar 
+  450  s
+  451  ls
+  452  cd client/
+  453  ls
+  454  cd cim
+  455  cd sim-cli 
+  456  ls
+  457  cd ..
+  458  cd /city/share
+  459  ls
+  460  cd resource-management-service/
+  461  ls
+  462  gradle bootRun
+  463  cd /city/share
+  464  ls
+  465  cd aems
+  466  cd aems-ui
+  467  npm run start
+  468  cd /city/share
+  469  ls
+  470  cd sim_2_9_8
+  471  ls
+  472  java -jar sim-2.9.8.v.jar 
+  473  cd ..
+  474  ls
+  475  cd jdk
+  476  rm -rf jdk1.8.0_191/
+  477  tar -zxvf jdk-8u191-linux-x64.tar.gz 
+  478  ls
+  479  which java
+  480  cd jdk1.8.0_191/
+  481  ls
+  482  cd bin
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd bin
+  487  pwd
+  488  cd ..
+  489  ls
+  490  cd sim_2_9_8
+  491  top -c
+  492  jps
+  493  ls
+  494  set Path=/city/share/jdk1.8.0_191/bin;
+  495  which java
+  496  java -jar sim-2.9.8.v.jar 
+  497  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  498  cd ..
+  499  ;s
+  500  ls
+  501  cd sim_2_9_8.
+  502  cd sim_2_9_8
+  503  ls
+  504  cd config/
+  505  ls
+  506  vim application-sim.yml 
+  507  cd ..
+  508  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  509  ls
+  510  cd config/
+  511  ls
+  512  vim application-sim.yml 
+  513  cd ..
+  514  cd /city/share/jdk1.8.0_191/
+  515  ls
+  516  cd bin
+  517  pwd
+  518  cd /city/share/sim_2_9_8
+  519  ls
+  520  /city/share/jdk1.8.0_191/bin/java  sim-2.9.8.v.jar 
+  521  /city/share/jdk1.8.0_191/bin/java  -jar sim-2.9.8.v.jar 
+  522  cd /city/share
+  523  ls
+  524  cd resource-management-service/
+  525  gradle bootRun
+  526  cd /city/share
+  527  ls
+  528  cd pico-management-service/
+  529  ls
+  530  gradle bootRun
+  531  mysql -h 172.0.13.142 -proot
+  532  ping 172.0.13.142
+  533  mysql -h 172.0.13.142 -proot
+  534  mysql -h 172.0.13.142 -uroot
+  535  cd /city/share
+  536  ls
+  537  cd resource-management-service/
+  538  cd ..
+  539  ls
+  540  cd sim_2_9_8
+  541  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  542  cd config
+  543  ls
+  544  vim application-sim.yml 
+  545  cd ..
+  546  ls
+  547  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  548  vim config/application-sim.yml 
+  549  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  550  cd config/
+  551  ls
+  552  vim application-sim.yml 
+  553  cd ..
+  554  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  555  vim config/application-sim.yml 
+  556  cd /city/share/
+  557  cd resource-management-service/
+  558  gradle bootRun
+  559  cd /city/share
+  560  ls
+  561  jps
+  562  killall -9 java
+  563  ps -ef | grep java
+  564  kill all -9 java
+  565  killall -9 java
+  566  ps -ef | grep java
+  567  cd pico-management-service/
+  568  gradle bootRun
+  569  redis-cli 
+  570  gradle bootRun
+  571  cd /city/share
+  572  ls
+  573  cd pico-management-service/
+  574  gradle bootRun
+  575  cd /city/share
+  576  ls
+  577  cd resource-management-service/
+  578  gradle bootRun
+  579  jps
+  580  cd /city/share
+  581  ls
+  582  cd sim_2_9_8
+  583  cd config/
+  584  ls
+  585  vim application-sim.yml 
+  586  cd ..
+  587  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  588  pkill java
+  589  jps
+  590  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  591  cd /city/share
+  592  ls
+  593  cd pico-management-service/
+  594  ls
+  595  redis-cli
+  596  cd /city/share
+  597  ls
+  598  cd sim_2_9_8
+  599  ls
+  600  cd config/
+  601  ls
+  602  vim application-sim.yml 
+  603  cd ..
+  604  cd /city/share/jdk1.8.0_191/
+  605  cd bin
+  606  pwd
+  607  cd /city/share
+  608  cd sim_2_9_8
+  609  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  610  cd config/
+  611  ls
+  612  vim application-sim.yml 
+  613  cd ..
+  614  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  615  cd config/
+  616  ls
+  617  vim application-sim.yml
+  618  cd ..
+  619  /city/share/jdk1.8.0_191/bin/java sim-2.9.8.v.jar 
+  620  /city/share/jdk1.8.0_191/bin/java -jav sim-2.9.8.v.jar 
+  621  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  622  cd config/
+  623  ls
+  624  vim application-sim.yml 
+  625  cd ..
+  626  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  627  cd config/
+  628  ls
+  629  vim application-sim.yml 
+  630  cd ..
+  631  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  632  cd config
+  633  ls
+  634  vim application-sim.yml 
+  635  cd ..
+  636  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  637  cd config
+  638  ls
+  639  vim application-sim.yml 
+  640  cd ..
+  641  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  642  cd config
+  643  ls
+  644  vim application-sim.yml 
+  645  cd ..
+  646  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  647  cd config
+  648  ls
+  649  vim application-sim.yml 
+  650  cd ..
+  651  ls
+  652  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  653  cd /config
+  654  ls
+  655  cd config/
+  656  ls
+  657  vim application-sim.yml 
+  658  cd ..
+  659  /city/share/jdk1.8.0_191/bin/java -jar sim-2.9.8.v.jar 
+  660  cd ..
+  661  cd resource-management-service/
+  662  gradle bootRun
+  663  cd /city/share/
+  664  ls
+  665  cd aems-ui/
+  666  npm run start
+  667  cd /city//share/resource-management-service/
+  668  gradle bootRun
+  669  cd /city/share
+  670  cd resource-management-service/
+  671  cd ..
+  672  cd pico-management-service/
+  673  git status
+  674  git branch
+  675  cd /usr/bin
+  676  ./nginx
+  677  which nginx
+  678  cd /usr/sbin
+  679  ./nginx
+  680  cd /city/share/sim_2_9_0
+  681  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  682  vim config/application-sim.yml 
+  683  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  684  vim config/application-sim.yml 
+  685  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  686  vim config/application-sim.yml 
+  687  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  688  cd ..
+  689  cd pico-management-service/
+  690  git push 
+  691  nestat -tunlp
+  692  netstat -tunlp
+  693  cd /city/share
+  694  ls
+  695  cd pico-management-service/
+  696  git log
+  697  git status
+  698  git push
+  699  git push --set-upstream origin hotfix/fix_debug20200813
+  700  cd ..
+  701  cd resource-management-service/
+  702  git push
+  703  git push --set-upstream origin hotfix/fix_provision_list20200814
+  704  cd /city/share/pico-management-service/
+  705  gradle bootRun --debug-jvm
+  706  git status
+  707  gradle bootRun --debug-jvm
+  708  git checkout master
+  709  git status;
+  710  git config core.filemode false
+  711  git status
+  712  git checkout master
+  713  git branch
+  714  git log
+  715  git status
+  716  git diff
+  717  git checkout --
+  718  git status;
+  719  git log
+  720  git status
+  721  git checkout -- .
+  722  git status;
+  723  git log
+  724  git checkout master
+  725  git branch
+  726  git fetch
+  727  git branch
+  728  git checkout hotfix/fix_debug20200813
+  729  git status;
+  730  git log
+  731  git -amend
+  732  git commit -amend
+  733  git commit --amend
+  734  git branch
+  735  git merge hotfix/fixProfileSendedToBase20200817
+  736  git log
+  737  cd ..
+  738  cd resource-management-service/
+  739  ls
+  740  git log
+  741  gradle bootRun
+  742  cd ..
+  743  cd pico-management-service/
+  744  gradle bootRun
+  745  cd /city/share/aems-ui/
+  746  npm run start
+  747  cd /city/share/resource-management-service/
+  748  gradle bootRun
+  749  git checkout -- .
+  750  git status
+  751  git checkout master
+  752  git fetch
+  753  git checkout hotfix/fix_provision_list20200814
+  754  git branch
+  755  git merge master
+  756  git log
+  757  git chekcout master
+  758  git checkout master
+  759  git merge origin/master
+  760  git log
+  761  git branch
+  762  git checkout hotfix/fix_provision_list20200814
+  763  git merge master
+  764  git status
+  765  git checkout -- .
+  766  git log
+  767  git checkout -- .
+  768  cd ..
+  769  ls
+  770  cd common/
+  771  ls
+  772  git branch
+  773  git fetch
+  774  git merge origin/master
+  775  git clean install
+  776  gradle clean install
+  777  cd ..
+  778  cd resource-management-service/
+  779  git checkout -- .
+  780  git add.
+  781  git add .
+  782  git checout -- .
+  783  git checkout -- .
+  784  git status
+  785  gradle clean install
+  786  gradle bootRun
+  787  git branch
+  788  git checkout -- .
+  789  git fetch
+  790  git checkout master
+  791  git fetch
+  792  git checkout -b hotfix/20200819fix_delete_logic
+  793  gradle bootRun
+  794  gradle bootRun --debug-jvm
+  795  gradle bootRun 
+  796  gradle bootRun --debug-jvm
+  797  gradle bootRun 
+  798  gradle bootRun --debug-jvm
+  799  git stash
+  800  git status
+  801  git branch
+  802  git checkout hotfix/fix_provision_list20200814
+  803  gradle bootRun --debug-jvm
+  804  git status
+  805  git branch
+  806  git checkout hotfix/20200819fix_delete_logic
+  807  git stash pop
+  808  gradle bootRun --debug-jvm
+  809  git branch
+  810  git checkout hotfix/fix_provision_list20200814
+  811  git log
+  812  gradle bootRun
+  813  git branch
+  814  git checkout master
+  815  git checkout -- .
+  816  git checkout master
+  817  git checkout -b hotfix/20200821_fix_select_logic
+  818  git checkout master
+  819  git fetch
+  820  git merge origin/master
+  821  git status
+  822  git checkout -
+  823  gradle bootRun --debug-jvm
+  824  cd /city/share/pico-management-service/
+  825  gradle bootRun
+  826  gradle bootRun --debug-jvm
+  827  gradle bootRun 
+  828  git branch
+  829  git status;
+  830  git checkout -- .
+  831  git checkout master
+  832  git fetch
+  833  git merge origin/master
+  834  gradle bootRun
+  835  git checkout -b hotfix/20200819_fix_delete_logic
+  836  gradle bootRun
+  837  gradle bootRun --Debug-jvm
+  838  gradle bootRun --DEBUG-jvm
+  839  gradle bootRun --debug-jvm
+  840  gradle bootRun 
+  841  git branch
+  842  git checkout -b hotfix/20200821_fix_select_logic
+  843  git branch
+  844  git log
+  845  git checkout master
+  846  git branch
+  847  git branch -D hotfix/20200821_fix_select_log
+  848  git branch -D hotfix/20200821_fix_select_logic
+  849  git checkout -b hotfix/20200821_fix_select_logic
+  850  git checkout hotfix/20200819_fix_delete_logic
+  851  git log
+  852  git branch
+  853  git checkout hotfix/20200821_fix_select_logic
+  854  git log
+  855  git branch
+  856  git status
+  857  gradle bootRun
+  858  cd /city/share
+  859  ls
+  860  cd common
+  861  gradle clean install
+  862  cd ..
+  863  ls
+  864  cd resource-management-service/
+  865  ls
+  866  git branch
+  867  git rm --cached
+  868  git status
+  869  git checkout -- .
+  870  git status
+  871  git log
+  872  git reset --hard 24e8e73f50b4bdec317ec3349ff7fba203693c9b
+  873  git status
+  874  git checkout master
+  875  git checkout -b hotfix/another_bug
+  876  git status
+  877  git branch
+  878  cd ..
+  879  ls
+  880  cd pico-management-service/
+  881  ls
+  882  cd logs/
+  883  ls
+  884  ls -ls
+  885  ls -l
+  886  cd /city/share/pico-management-service/
+  887  gralde bootRun
+  888  gradle bootRun
+  889  git log
+  890  gradle bootRun
+  891  gradle bootRun --debug-jvm
+  892  gradle bootRun 
+  893  gradle bootRun --debug-jvm
+  894  netstat -ntslp
+  895  netstat -nlstp
+  896  nestat -tunlp
+  897  netstat -ntslp
+  898  netstat -nultp
+  899  jps
+  900  gradle bootRun --debug-jvm
+  901  git stash
+  902  git status
+  903  git checkout master
+  904  git branch
+  905  git checkout hotfix/20200819_fix_delete_logic
+  906  gradle bootRun
+  907  gradle bootRun --debug-jvm
+  908  git status
+  909  git checkout -- .
+  910  git status
+  911  git branch
+  912  git checkout hotfix/20200821_fix_select_logic
+  913  git stash pop
+  914  gradle bootRun --debug-jvm
+  915  gradle bootRun
+  916  git stash
+  917  git branch
+  918  git checkout hotfix/20200819_fix_delete_logic
+  919  gradle bootRun --jvm-debug
+  920  gradle bootRun --debug-jvm
+  921  git status
+  922  git checkout -- .
+  923  git branch
+  924  git checkout hotfix/20200821_fix_select_logic
+  925  git branch
+  926  git status
+  927  git stash pop
+  928  git status
+  929  git checkout master
+  930  git fetch origin/master
+  931  git fetch
+  932  git checkout hotfix/merge_delete_select_branch
+  933  git checkout -b hotfix/merge_delete_select_branch
+  934  git merge branch
+  935  git branch
+  936  git merge hotfix/20200819_fix_delete_logic
+  937  git log
+  938  git branch
+  939  git merge hotfix/20200821_fix_select_logic
+  940  gradle bootRun --debug-jvm
+  941  gradle bootRun 
+  942  gradle bootRun --debug-jvm
+  943  cd /city/share/resource-management-service/
+  944  gradle bootRun
+  945  gradle bootRun --debug-jvm
+  946  gradle BootRun
+  947  gradle bootRun --debug-jvm
+  948  git branch
+  949  git status
+  950  git stash
+  951  git checkout hotfix/20200819fix_delete_logic
+  952  gradlr bootRun --debug-jvm
+  953  gradle bootRun --debug-jvm
+  954  git stauts
+  955  git status
+  956  git checkout -- .
+  957  git status
+  958  git branch
+  959  git checkout hotfix/20200821_fix_select_logic
+  960  git branch
+  961  git stash pop
+  962  gradle bootRun --debug-jvm
+  963  git stash
+  964  git branch
+  965  git checkout hotfix/20200819fix_delete_logic
+  966  git branch
+  967  cd /city/share
+  968  ls
+  969  cd sim_2_9_
+  970  cd sim_2_9_0
+  971  ls
+  972  cd config/
+  973  ls
+  974  vim application-sim.yml 
+  975  cd ..
+  976  cd sim_2_9_8
+  977  ls
+  978  cd config/
+  979  ls
+  980  vim application
+  981  ls
+  982  vim application-sim.yml 
+  983  cd ..
+  984  ls
+  985  cd ..
+  986  ls
+  987  cd sim_2_9_0
+  988  ls
+  989  cd config/
+  990  ls
+  991  vim application-sim.yml 
+  992  cd ..
+  993  cd /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  994  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  995  vim config/application-sim.yml 
+  996  /city/share/jdk1.8.0_191/bin/java -jar sim-5G-1.3.jar 
+  997  cd /city/share
+  998  ls
+  999  cd aems-ui/
+ 1000  npm run start
+ 1001  tcpdump tcp port 3366
+ 1002  tcpdump tcp port 8081
+ 1003  tcpdump -i eth1 dst port 3366
+ 1004  tcpdump -i eth1 dst port 8081
+ 1005  tcpdump tcp  port 8081
+ 1006  tcpdump Http  port 8081
+ 1007  tshark
+ 1008  yum install tshark
+ 1009  yum -y install tshark
+ 1010  yum install wireshark
+ 1011  tcpdump tcp port 8081
+ 1012  tcpdump  port 8081
+ 1013  tcpdump src 192.168.1.100
+ 1014  tcpdump -i any host 172.0.16.36 -w /home/sharefile/tcp/cell1.pcap
+ 1015  tcpdump -i any host 172.0.16.36 -w cell1.pcap
+ 1016  ls
+ 1017  cp cell1.pcap /city/share
+ 1018  netstat -tunlp
+ 1019  cd /city/share
+ 1020  tcpdump -i any host 172.0.16.36 -w /home/sharefile/tcp/cell1.pcap
+ 1021  tcpdump -i any host 172.0.16.36 -w cell1.pcap
+ 1022  tcpdump -i any host 172.0.16.36 -w cell.pcap
+ 1023  tcpdump -i any host 172.0.16.36 -w cell2.pcap
+ 1024  tcpdump -i any host 172.0.10.20 -w cell3.pcap
+ 1025  tcpdump -i any host 172.0.16.36 -w cell5.pcap
+ 1026  tcpdump -i any host 172.0.16.36 -w cell6.pcap
+ 1027  tcpdump -i any host 172.0.16.36 -w cell7.pcap
+ 1028  tcpdump -i any host 172.0.16.36 -w cell8.pcap
+ 1029  tcpdump -i any host 172.0.16.36 -w cell9.pcap
+ 1030  tcpdump -i any host 172.0.16.36 -w cell1.pcap
+ 1031  tcpdump -i any host 172.0.16.36 -w cell2.pcap
+ 1032  tcpdump -i any host 172.0.16.36 -w cell15.pcap
+ 1033  tcpdump -i any host 172.0.16.36 -w cell16.pcap
+ 1034  tcpdump tcp port 8080
+ 1035  ls
+ 1036  cd gitTest/
+ 1037  ls
+ 1038  history
+ 1039  history >history.txt
